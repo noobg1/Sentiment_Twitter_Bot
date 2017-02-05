@@ -1,7 +1,7 @@
 import tweepy
 from time import sleep
 #from sentiment_mod import sentiment_utility
-from twitter_credentials.py import *
+from twitter_credentials import *
 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
